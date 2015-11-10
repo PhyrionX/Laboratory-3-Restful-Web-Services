@@ -333,6 +333,7 @@ public class AddressBookServiceTest {
 		ab.getPersonList().add(juan);
 		launchServer(ab);
 
+
 		// Delete a user
 		Client client = ClientBuilder.newClient();
 		Response response = client
